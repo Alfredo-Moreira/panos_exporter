@@ -6,7 +6,7 @@
 %endif 
 
 Name:    panos_exporter
-Version: 0.10.0
+Version: 1.0.2
 Release: 1%{?dist}
 Summary: Prometheus panos exporter.
 License: MIT
