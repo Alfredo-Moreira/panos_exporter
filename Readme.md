@@ -9,7 +9,7 @@ To dockerize it, your Dockerfile should look like this:
 FROM golang:1.19-buster
 WORKDIR /app/
 
-RUN go install github.com/Alfredo-Moreira/panos_exporter@latest
+RUN go install github.com/Alfredo-Moreira/panos_exporter@v1.0.3
 
 COPY config.yaml /app/config.yaml
 
